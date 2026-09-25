@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 1 / 300
+**Solved:** 3 / 300
 
 ## Structure
 
@@ -17,3 +17,5 @@ New problems start from [`_template.py`](_template.py).
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---------|------------|---------|------|-------|
 | 217 | [Contains Duplicate](01-arrays-hashing/0217_contains_duplicate.py) | Easy | Hashing (set) | O(n) | O(n) |
+| 268 | [Missing Number](01-arrays-hashing/0268_missing_number.py) | Easy | Hashing (set) | O(n) | O(n) |
+| 448 | [Find All Numbers Disappeared in an Array](01-arrays-hashing/0448_find_all_numbers_disappeared.py) | Easy | Hashing (set) | O(n) | O(n) |
