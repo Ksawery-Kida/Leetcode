@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 3 / 300
+**Solved:** 10 / 300
 
 ## Structure
 
@@ -18,4 +18,11 @@ New problems start from [`_template.py`](_template.py).
 |---|---------|------------|---------|------|-------|
 | 217 | [Contains Duplicate](01-arrays-hashing/0217_contains_duplicate.py) | Easy | Hashing (set) | O(n) | O(n) |
 | 268 | [Missing Number](01-arrays-hashing/0268_missing_number.py) | Easy | Hashing (set) | O(n) | O(n) |
-| 448 | [Find All Numbers Disappeared in an Array](01-arrays-hashing/0448_find_all_numbers_disappeared.py) | Easy | Hashing (set) | O(n) | O(n) |
+| 448 | [Find All Numbers Disappeared in an Array](01-arrays-hashing/0448_find_all_numbers_dissappeared_in_the_array.py) | Easy | Hashing (set) | O(n) | O(n) |
+| 1 | [Two Sum](01-arrays-hashing/0001_two_sum.py) | Easy | Hashing (dict) | O(n) | O(n) |
+| 242 | [Valid Anagram](01-arrays-hashing/0242_valid_anagram.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
+| 387 | [First Unique Character in a String](01-arrays-hashing/0387_first_unique_character_in_a_string.py) | Easy | Hashing (frequency dict) | O(n) | O(1) |
+| 136 | [Single Number](01-arrays-hashing/0136_single_number.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
+| 169 | [Majority Element](01-arrays-hashing/0169_majority_element.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
+| 1929 | [Concatenation of Array](01-arrays-hashing/1929_concatenation_of_array.py) | Easy | — (list + list) | O(n) | O(n) |
+| 704 | [Binary Search](05-binary-search/0704_binary_search.py) | Easy | Binary search | O(log n) | O(1) |
