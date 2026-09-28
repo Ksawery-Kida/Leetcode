@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 11 / 300
+**Solved:** 12 / 300
 
 ## Structure
 
@@ -27,3 +27,4 @@ New problems start from [`_template.py`](_template.py).
 | 1929 | [Concatenation of Array](01-arrays-hashing/1929_concatenation_of_array.py) | Easy | — (list + list) | O(n) | O(n) |
 | 704 | [Binary Search](05-binary-search/0704_binary_search.py) | Easy | Binary search | O(log n) | O(1) |
 | 20 | [Valid Parentheses](04-stack/0020_valid_parentheses.py) | Easy | Stack | O(n) | O(n) |
+| 682 | [Baseball Game](04-stack/0682_baseball_game.py) | Easy | Stack | O(n) | O(n) |
