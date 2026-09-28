@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 16 / 300
+**Solved:** 17 / 300
 
 ## Structure
 
@@ -32,3 +32,4 @@ New problems start from [`_template.py`](_template.py).
 | 844 | [Backspace String Compare](04-stack/0844_backspace_string_compare.py) | Easy | Stack | O(n + m) | O(n + m) |
 | 155 | [Min Stack](04-stack/0155_min_stack.py) | Medium | Stack (two stacks) | O(1) | O(n) |
 | 150 | [Evaluate Reverse Polish Notation](04-stack/0150_evaluate_reverse_polish_notation.py) | Medium | Stack | O(n) | O(n) |
+| 739 | [Daily Temperatures](04-stack/0739_daily_temperatures.py) | Medium | Monotonic stack | O(n) | O(n) |
