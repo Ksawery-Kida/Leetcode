@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 18 / 300
+**Solved:** 19 / 300
 
 ## Structure
 
@@ -34,3 +34,4 @@ New problems start from [`_template.py`](_template.py).
 | 150 | [Evaluate Reverse Polish Notation](04-stack/0150_evaluate_reverse_polish_notation.py) | Medium | Stack | O(n) | O(n) |
 | 739 | [Daily Temperatures](04-stack/0739_daily_temperatures.py) | Medium | Monotonic stack | O(n) | O(n) |
 | 1480 | [Running Sum of 1d Array](01-arrays-hashing/1480_running_sum_of_1d_array.py) | Easy | Prefix sum | O(n) | O(n) |
+| 1512 | [Number of Good Pairs](01-arrays-hashing/1512_number_of_good_pairs.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
