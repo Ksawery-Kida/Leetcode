@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 14 / 300
+**Solved:** 15 / 300
 
 ## Structure
 
@@ -30,3 +30,4 @@ New problems start from [`_template.py`](_template.py).
 | 682 | [Baseball Game](04-stack/0682_baseball_game.py) | Easy | Stack | O(n) | O(n) |
 | 1047 | [Remove All Adjacent Duplicates In String](04-stack/1047_remove_all_adjacent_duplicates_in_string.py) | Easy | Stack | O(n) | O(n) |
 | 844 | [Backspace String Compare](04-stack/0844_backspace_string_compare.py) | Easy | Stack | O(n + m) | O(n + m) |
+| 155 | [Min Stack](04-stack/0155_min_stack.py) | Medium | Stack (two stacks) | O(1) | O(n) |
