@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 26 / 300
+**Solved:** 27 / 300
 
 ## Structure
 
@@ -42,3 +42,4 @@ New problems start from [`_template.py`](_template.py).
 | 977 | [Squares of a Sorted Array](02-two-pointers/0977_squares_of_a_sorted_array.py) | Easy | Square + sort | O(n log n) | O(n) |
 | 1672 | [Richest Customer Wealth](01-arrays-hashing/1672_richest_customer_wealth.py) | Easy | Array (running max) | O(m·n) | O(1) |
 | 1470 | [Shuffle the Array](01-arrays-hashing/1470_shuffle_the_array.py) | Easy | Array (index math) | O(n) | O(n) |
+| 1920 | [Build Array from Permutation](01-arrays-hashing/1920_build_array_from_permutation.py) | Easy | Array (index math) | O(n) | O(n) |
