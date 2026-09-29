@@ -24,6 +24,25 @@ class Solution:
             return True
 
 
+# Redo 2026-09-29 (from scratch, alone): peek with stack[-1], pop only on match.
+class SolutionPeek:
+    def isValid(self, s: str) -> bool:
+        close_to_open = {")": "(", "}": "{", "]": "["}
+        stack = []
+        for c in s:
+            if c not in close_to_open:
+                stack.append(c)
+            else:
+                if not stack:
+                    return False
+                a = stack[-1]
+                if a == close_to_open[c]:
+                    stack.pop()
+                else:
+                    return False
+        return not stack
+
+
 if __name__ == "__main__":
     print(Solution().isValid("()"))      # True
     print(Solution().isValid("()[]{}"))  # True
@@ -31,3 +50,4 @@ if __name__ == "__main__":
     print(Solution().isValid("([])"))    # True
     print(Solution().isValid("((("))     # False
     print(Solution().isValid(")"))       # False
+    print(SolutionPeek().isValid("([])"), SolutionPeek().isValid("(]"))  # True False
