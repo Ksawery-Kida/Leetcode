@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 23 / 300
+**Solved:** 24 / 300
 
 ## Structure
 
@@ -39,3 +39,4 @@ New problems start from [`_template.py`](_template.py).
 | 1394 | [Find Lucky Integer in an Array](01-arrays-hashing/1394_find_lucky_integer_in_an_array.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
 | 344 | [Reverse String](02-two-pointers/0344_reverse_string.py) | Easy | Two pointers | O(n) | O(1) |
 | 125 | [Valid Palindrome](02-two-pointers/0125_valid_palindrome.py) | Easy | Two pointers | O(n) | O(n) |
+| 977 | [Squares of a Sorted Array](02-two-pointers/0977_squares_of_a_sorted_array.py) | Easy | Square + sort | O(n log n) | O(n) |
