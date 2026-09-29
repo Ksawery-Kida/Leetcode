@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 29 / 300
+**Solved:** 30 / 300
 
 ## Structure
 
@@ -45,3 +45,4 @@ New problems start from [`_template.py`](_template.py).
 | 1920 | [Build Array from Permutation](01-arrays-hashing/1920_build_array_from_permutation.py) | Easy | Array (index math) | O(n) | O(n) |
 | 1431 | [Kids With the Greatest Number of Candies](01-arrays-hashing/1431_kids_with_the_greatest_number_of_candies.py) | Easy | Array (max + compare) | O(n) | O(n) |
 | 1614 | [Maximum Nesting Depth of the Parentheses](04-stack/1614_maximum_nesting_depth_of_the_parentheses.py) | Easy | Stack (counter) | O(n) | O(1) |
+| 167 | [Two Sum II - Input Array Is Sorted](02-two-pointers/0167_two_sum_ii_input_array_is_sorted.py) | Medium | Two pointers | O(n) | O(1) |
