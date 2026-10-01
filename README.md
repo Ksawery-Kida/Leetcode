@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 31 / 300
+**Solved:** 32 / 300
 
 ## Structure
 
@@ -47,3 +47,4 @@ New problems start from [`_template.py`](_template.py).
 | 1614 | [Maximum Nesting Depth of the Parentheses](04-stack/1614_maximum_nesting_depth_of_the_parentheses.py) | Easy | Stack (counter) | O(n) | O(1) |
 | 167 | [Two Sum II - Input Array Is Sorted](02-two-pointers/0167_two_sum_ii_input_array_is_sorted.py) | Medium | Two pointers | O(n) | O(1) |
 | 1544 | [Make The String Great](04-stack/1544_make_the_string_great.py) | Easy | Stack | O(n) | O(n) |
+| 283 | [Move Zeroes](02-two-pointers/0283_move_zeroes.py) | Easy | Two pointers (same direction) | O(n) | O(1) |
