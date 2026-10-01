@@ -5,6 +5,10 @@
 # Key idea: water = (right - left) * min(height[left], height[right]); keep the max.
 # Move the LOWER wall: it limits the water, moving the higher one can only make it worse.
 # Compare HEIGHTS (height[left] < height[right]), right moves with -= 1.
+#
+# Problem (summary): height[i] is the height of a vertical wall at index i. Pick two walls;
+# the water between them = (distance between indexes) * (the lower wall).
+# Return the maximum amount of water any two walls can hold.
 
 class Solution:
     def maxArea(self, height: list[int]) -> int:

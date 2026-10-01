@@ -5,6 +5,10 @@
 # Key idea: empty stack = we're at an OUTER bracket. "(": add to result only if stack is
 # not empty, then push. ")": pop first, then add to result only if stack is still not empty.
 # Every bracket goes on / comes off the stack exactly once.
+#
+# Problem (summary): s is a valid parentheses string made of "primitive" groups
+# (non-empty valid strings that can't be split further), e.g. "(()())(())" = "(()())" + "(())".
+# Remove the outermost pair of every group and return the rest -> "()()()".
 
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:
