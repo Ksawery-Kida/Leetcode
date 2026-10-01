@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 33 / 300
+**Solved:** 34 / 300
 
 ## Structure
 
@@ -49,3 +49,4 @@ New problems start from [`_template.py`](_template.py).
 | 1544 | [Make The String Great](04-stack/1544_make_the_string_great.py) | Easy | Stack | O(n) | O(n) |
 | 283 | [Move Zeroes](02-two-pointers/0283_move_zeroes.py) | Easy | Two pointers (same direction) | O(n) | O(1) |
 | 2011 | [Final Value of Variable After Performing Operations](01-arrays-hashing/2011_final_value_of_variable_after_performing_operations.py) | Easy | Simulation | O(n) | O(1) |
+| 1021 | [Remove Outermost Parentheses](04-stack/1021_remove_outermost_parentheses.py) | Easy | Stack | O(n) | O(n) |
