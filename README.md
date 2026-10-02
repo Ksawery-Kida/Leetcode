@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 36 / 300
+**Solved:** 37 / 300
 
 ## Structure
 
@@ -52,3 +52,4 @@ New problems start from [`_template.py`](_template.py).
 | 1021 | [Remove Outermost Parentheses](04-stack/1021_remove_outermost_parentheses.py) | Easy | Stack | O(n) | O(n) |
 | 11 | [Container With Most Water](02-two-pointers/0011_container_with_most_water.py) | Medium | Two pointers | O(n) | O(1) |
 | 1768 | [Merge Strings Alternately](02-two-pointers/1768_merge_strings_alternately.py) | Easy | Index loop | O(n + m) | O(n + m) |
+| 121 | [Best Time to Buy and Sell Stock](03-sliding-window/0121_best_time_to_buy_and_sell_stock.py) | Easy | Sliding window (running min) | O(n) | O(1) |
