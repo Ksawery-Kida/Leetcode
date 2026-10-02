@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 38 / 300
+**Solved:** 39 / 300
 
 ## Structure
 
@@ -54,3 +54,4 @@ New problems start from [`_template.py`](_template.py).
 | 1768 | [Merge Strings Alternately](02-two-pointers/1768_merge_strings_alternately.py) | Easy | Index loop | O(n + m) | O(n + m) |
 | 121 | [Best Time to Buy and Sell Stock](03-sliding-window/0121_best_time_to_buy_and_sell_stock.py) | Easy | Sliding window (running min) | O(n) | O(1) |
 | 643 | [Maximum Average Subarray I](03-sliding-window/0643_maximum_average_subarray_i.py) | Easy | Sliding window (fixed k) | O(n) | O(1) |
+| 2390 | [Removing Stars From a String](04-stack/2390_removing_stars_from_a_string.py) | Medium | Stack | O(n) | O(n) |
