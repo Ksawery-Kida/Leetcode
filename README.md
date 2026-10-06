@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 40 / 300
+**Solved:** 41 / 300
 
 ## Structure
 
@@ -56,3 +56,4 @@ New problems start from [`_template.py`](_template.py).
 | 643 | [Maximum Average Subarray I](03-sliding-window/0643_maximum_average_subarray_i.py) | Easy | Sliding window (fixed k) | O(n) | O(1) |
 | 2390 | [Removing Stars From a String](04-stack/2390_removing_stars_from_a_string.py) | Medium | Stack | O(n) | O(n) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
+| 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
