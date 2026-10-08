@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 44 / 300
+**Solved:** 45 / 300
 
 ## Structure
 
@@ -60,3 +60,4 @@ New problems start from [`_template.py`](_template.py).
 | 26 | [Remove Duplicates from Sorted Array](02-two-pointers/0026_remove_duplicates_from_sorted_array.py) | Easy | Two pointers (insert index) | O(n) | O(1) |
 | 2215 | [Find the Difference of Two Arrays](01-arrays-hashing/2215_find_the_difference_of_two_arrays.py) | Easy | Hashing (set) | O(n·m) | O(n+m) |
 | 35 | [Search Insert Position](05-binary-search/0035_search_insert_position.py) | Easy | Binary search | O(log n) | O(1) |
+| 74 | [Search a 2D Matrix](05-binary-search/0074_search_a_2d_matrix.py) | Medium | Binary search (flattened index) | O(log(m·n)) | O(1) |
