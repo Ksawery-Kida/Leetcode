@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 47 / 300
+**Solved:** 48 / 300
 
 ## Structure
 
@@ -63,3 +63,4 @@ New problems start from [`_template.py`](_template.py).
 | 74 | [Search a 2D Matrix](05-binary-search/0074_search_a_2d_matrix.py) | Medium | Binary search (flattened index) | O(log(m·n)) | O(1) |
 | 875 | [Koko Eating Bananas](05-binary-search/0875_koko_eating_bananas.py) | Medium | Binary search on answer | O(n·log m) | O(1) |
 | 509 | [Fibonacci Number](11-dynamic-programming/0509_fibonacci_number.py) | Easy | DP (bottom-up) | O(n) | O(n) |
+| 1137 | [N-th Tribonacci Number](11-dynamic-programming/1137_n_th_tribonacci_number.py) | Easy | DP (bottom-up) | O(n) | O(n) |
