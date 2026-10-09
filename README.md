@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 49 / 300
+**Solved:** 50 / 300
 
 ## Structure
 
@@ -65,3 +65,4 @@ New problems start from [`_template.py`](_template.py).
 | 509 | [Fibonacci Number](11-dynamic-programming/0509_fibonacci_number.py) | Easy | DP (bottom-up) | O(n) | O(n) |
 | 1137 | [N-th Tribonacci Number](11-dynamic-programming/1137_n_th_tribonacci_number.py) | Easy | DP (bottom-up) | O(n) | O(n) |
 | 118 | [Pascal's Triangle](11-dynamic-programming/0118_pascals_triangle.py) | Easy | DP (row from previous row) | O(n²) | O(n²) |
+| 3174 | [Clear Digits](04-stack/3174_clear_digits.py) | Easy | Stack | O(n) | O(n) |
