@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 54 / 300
+**Solved:** 55 / 300
 
 ## Structure
 
@@ -37,6 +37,7 @@ New problems start from [`_template.py`](_template.py).
 | 1480 | [Running Sum of 1d Array](01-arrays-hashing/1480_running_sum_of_1d_array.py) | Easy | Prefix sum | O(n) | O(n) |
 | 1512 | [Number of Good Pairs](01-arrays-hashing/1512_number_of_good_pairs.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
 | 1748 | [Sum of Unique Elements](01-arrays-hashing/1748_sum_of_unique_elements.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
+| 1550 | [Three Consecutive Odds](01-arrays-hashing/1550_three_consecutive_odds.py) | Easy | Counter (run) | O(n) | O(1) |
 | 1394 | [Find Lucky Integer in an Array](01-arrays-hashing/1394_find_lucky_integer_in_an_array.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
 | 344 | [Reverse String](02-two-pointers/0344_reverse_string.py) | Easy | Two pointers | O(n) | O(1) |
 | 125 | [Valid Palindrome](02-two-pointers/0125_valid_palindrome.py) | Easy | Two pointers | O(n) | O(n) |
