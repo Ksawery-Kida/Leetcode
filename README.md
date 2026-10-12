@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 59 / 300
+**Solved:** 60 / 300
 
 ## Structure
 
@@ -20,6 +20,7 @@ New problems start from [`_template.py`](_template.py).
 | 238 | [Product of Array Except Self](01-arrays-hashing/0238_product_of_array_except_self.py) | Medium | Prefix / suffix products | O(n) | O(1) |
 | 268 | [Missing Number](01-arrays-hashing/0268_missing_number.py) | Easy | Hashing (set) | O(n) | O(n) |
 | 448 | [Find All Numbers Disappeared in an Array](01-arrays-hashing/0448_find_all_numbers_dissappeared_in_the_array.py) | Easy | Hashing (set) | O(n) | O(n) |
+| 724 | [Find Pivot Index](01-arrays-hashing/0724_find_pivot_index.py) | Easy | Prefix sum | O(n) | O(1) |
 | 485 | [Max Consecutive Ones](01-arrays-hashing/0485_max_consecutive_ones.py) | Easy | Counter / stack | O(n) | O(1) |
 | 1 | [Two Sum](01-arrays-hashing/0001_two_sum.py) | Easy | Hashing (dict) | O(n) | O(n) |
 | 242 | [Valid Anagram](01-arrays-hashing/0242_valid_anagram.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
