@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 56 / 300
+**Solved:** 57 / 300
 
 ## Structure
 
@@ -65,6 +65,7 @@ New problems start from [`_template.py`](_template.py).
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
 | 26 | [Remove Duplicates from Sorted Array](02-two-pointers/0026_remove_duplicates_from_sorted_array.py) | Easy | Two pointers (insert index) | O(n) | O(1) |
 | 2215 | [Find the Difference of Two Arrays](01-arrays-hashing/2215_find_the_difference_of_two_arrays.py) | Easy | Hashing (set) | O(n·m) | O(n+m) |
+| 2574 | [Left and Right Sum Differences](01-arrays-hashing/2574_left_and_right_sum_differences.py) | Easy | Prefix / suffix sums | O(n) | O(1) |
 | 35 | [Search Insert Position](05-binary-search/0035_search_insert_position.py) | Easy | Binary search | O(log n) | O(1) |
 | 74 | [Search a 2D Matrix](05-binary-search/0074_search_a_2d_matrix.py) | Medium | Binary search (flattened index) | O(log(m·n)) | O(1) |
 | 875 | [Koko Eating Bananas](05-binary-search/0875_koko_eating_bananas.py) | Medium | Binary search on answer | O(n·log m) | O(1) |
