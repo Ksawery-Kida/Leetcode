@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 57 / 300
+**Solved:** 58 / 300
 
 ## Structure
 
@@ -39,6 +39,7 @@ New problems start from [`_template.py`](_template.py).
 | 1748 | [Sum of Unique Elements](01-arrays-hashing/1748_sum_of_unique_elements.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](01-arrays-hashing/1351_count_negative_numbers_in_a_sorted_matrix.py) | Easy | Brute force (nested loops) | O(m·n) | O(1) |
 | 1550 | [Three Consecutive Odds](01-arrays-hashing/1550_three_consecutive_odds.py) | Easy | Counter (run) | O(n) | O(1) |
+| 1822 | [Sign of the Product of an Array](01-arrays-hashing/1822_sign_of_the_product_of_an_array.py) | Easy | Running product | O(n) | O(1) |
 | 1394 | [Find Lucky Integer in an Array](01-arrays-hashing/1394_find_lucky_integer_in_an_array.py) | Easy | Hashing (frequency dict) | O(n) | O(n) |
 | 344 | [Reverse String](02-two-pointers/0344_reverse_string.py) | Easy | Two pointers | O(n) | O(1) |
 | 125 | [Valid Palindrome](02-two-pointers/0125_valid_palindrome.py) | Easy | Two pointers | O(n) | O(n) |
