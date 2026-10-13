@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 60 / 300
+**Solved:** 61 / 300
 
 ## Structure
 
@@ -63,6 +63,7 @@ New problems start from [`_template.py`](_template.py).
 | 1343 | [Number of Sub-arrays of Size K and Average >= Threshold](03-sliding-window/1343_number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold.py) | Medium | Sliding window (fixed k) | O(n) | O(1) |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](03-sliding-window/1456_maximum_number_of_vowels_in_a_substring_of_given_length.py) | Medium | Sliding window (fixed k) | O(n) | O(1) |
 | 2390 | [Removing Stars From a String](04-stack/2390_removing_stars_from_a_string.py) | Medium | Stack | O(n) | O(n) |
+| 2696 | [Minimum String Length After Removing Substrings](04-stack/2696_minimum_string_length_after_removing_substrings.py) | Easy | Stack | O(n) | O(n) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](01-arrays-hashing/1365_how_many_numbers_are_smaller_than_the_current_number.py) | Easy | Brute force (nested loops) | O(n²) | O(n) |
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
