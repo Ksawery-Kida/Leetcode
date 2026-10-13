@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 61 / 300
+**Solved:** 62 / 300
 
 ## Structure
 
@@ -64,6 +64,7 @@ New problems start from [`_template.py`](_template.py).
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](03-sliding-window/1456_maximum_number_of_vowels_in_a_substring_of_given_length.py) | Medium | Sliding window (fixed k) | O(n) | O(1) |
 | 2390 | [Removing Stars From a String](04-stack/2390_removing_stars_from_a_string.py) | Medium | Stack | O(n) | O(n) |
 | 2696 | [Minimum String Length After Removing Substrings](04-stack/2696_minimum_string_length_after_removing_substrings.py) | Easy | Stack | O(n) | O(n) |
+| 496 | [Next Greater Element I](04-stack/0496_next_greater_element_i.py) | Easy | Brute force (nested loops + break) | O(n·m) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](01-arrays-hashing/1365_how_many_numbers_are_smaller_than_the_current_number.py) | Easy | Brute force (nested loops) | O(n²) | O(n) |
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
