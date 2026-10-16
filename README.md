@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 67 / 300
+**Solved:** 68 / 300
 
 ## Structure
 
@@ -70,6 +70,7 @@ New problems start from [`_template.py`](_template.py).
 | 141 | [Linked List Cycle](06-linked-list/0141_linked_list_cycle.py) | Easy | Fast & slow pointers (Floyd) | O(n) | O(1) |
 | 83 | [Remove Duplicates from Sorted List](06-linked-list/0083_remove_duplicates_from_sorted_list.py) | Easy | Linked list (skip node) | O(n) | O(1) |
 | 203 | [Remove Linked List Elements](06-linked-list/0203_remove_linked_list_elements.py) | Easy | Linked list (skip node + head loop) | O(n) | O(1) |
+| 237 | [Delete Node in a Linked List](06-linked-list/0237_delete_node_in_a_linked_list.py) | Medium | Linked list (overwrite val + skip) | O(1) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](01-arrays-hashing/1365_how_many_numbers_are_smaller_than_the_current_number.py) | Easy | Brute force (nested loops) | O(n²) | O(n) |
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
