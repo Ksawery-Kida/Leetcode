@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 73 / 300
+**Solved:** 74 / 300
 
 ## Structure
 
@@ -76,6 +76,7 @@ New problems start from [`_template.py`](_template.py).
 | 1913 | [Maximum Product Difference Between Two Pairs](01-arrays-hashing/1913_maximum_product_difference_between_two_pairs.py) | Easy | Sorting | O(n log n) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](01-arrays-hashing/2114_maximum_number_of_words_found_in_sentences.py) | Easy | String split + max | O(n) | O(n) |
 | 104 | [Maximum Depth of Binary Tree](07-trees/0104_maximum_depth_of_binary_tree.py) | Easy | Tree (recursive DFS) | O(n) | O(h) |
+| 226 | [Invert Binary Tree](07-trees/0226_invert_binary_tree.py) | Easy | Tree (recursive DFS, swap) | O(n) | O(h) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](01-arrays-hashing/1365_how_many_numbers_are_smaller_than_the_current_number.py) | Easy | Brute force (nested loops) | O(n²) | O(n) |
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
