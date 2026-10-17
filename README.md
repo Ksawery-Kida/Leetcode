@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 71 / 300
+**Solved:** 72 / 300
 
 ## Structure
 
@@ -74,6 +74,7 @@ New problems start from [`_template.py`](_template.py).
 | 21 | [Merge Two Sorted Lists](06-linked-list/0021_merge_two_sorted_lists.py) | Easy | Linked list (dummy + tail) | O(n+m) | O(1) |
 | 1464 | [Maximum Product of Two Elements in an Array](01-arrays-hashing/1464_maximum_product_of_two_elements_in_an_array.py) | Easy | Sorting | O(n log n) | O(1) |
 | 1913 | [Maximum Product Difference Between Two Pairs](01-arrays-hashing/1913_maximum_product_difference_between_two_pairs.py) | Easy | Sorting | O(n log n) | O(1) |
+| 2114 | [Maximum Number of Words Found in Sentences](01-arrays-hashing/2114_maximum_number_of_words_found_in_sentences.py) | Easy | String split + max | O(n) | O(n) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](01-arrays-hashing/1365_how_many_numbers_are_smaller_than_the_current_number.py) | Easy | Brute force (nested loops) | O(n²) | O(n) |
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
