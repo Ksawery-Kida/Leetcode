@@ -6,6 +6,8 @@
 # Key idea: same as #876, but if there is a cycle, fast (2 steps) eventually laps slow (1 step)
 # and they meet -> True. If fast reaches None -> no cycle -> False.
 # Bug to avoid: fast = fast.next (1 step) -> both move together -> always True.
+# Redo 2026-10-20: same 1-step bug again + `else: return False` inside the loop (exits after the
+# first iteration) — return False belongs AFTER the loop; loop condition is fast and fast.next.
 
 from typing import Optional
 
