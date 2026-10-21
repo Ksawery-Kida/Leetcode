@@ -8,7 +8,9 @@ class Solution:
                     return [i,j] 
 
 
-#   Hash Map
+#   Hash Map — O(n): seen = {value: index} of numbers already passed; for each x ask "was
+#   target - x already seen?" -> yes = [seen[need], i]. Dict `in` is O(1), so no second loop.
+#   Redo 2026-10-21: re-solved it alone after first being scared by this code.
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}
