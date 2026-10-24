@@ -22,3 +22,5 @@ if __name__ == "__main__":
     print(Solution().singleNumber([2, 2, 1]))  # 1
     print(Solution().singleNumber([4, 1, 2, 1, 2]))  # 4
     print(Solution().singleNumber([1]))  # 1
+
+# Redo 2026-10-24: re-solved solo.
