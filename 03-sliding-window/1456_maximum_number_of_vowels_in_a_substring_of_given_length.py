@@ -23,3 +23,7 @@ if __name__ == "__main__":
     print(Solution().maxVowels("abciiidef", 3))  # 3
     print(Solution().maxVowels("aeiou", 2))  # 2
     print(Solution().maxVowels("leetcode", 3))  # 2
+
+# Redo 2026-10-24 (solo): bugs hit — s[c] == "aeiou" compares one letter to the whole string
+# (always False, use `in`), and best = max(result, best) was outside the loop (only the last
+# window counted) — it must update after every step.
