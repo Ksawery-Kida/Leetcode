@@ -25,20 +25,20 @@ class TreeNode:
 
 class Solution:
     def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:
-        if not root1 and not root2:
+        if not root1 and not root2:  # Checking the edge cases
             return None
         if root1 and not root2:
             return root1
         if not root1 and root2:
             return root2
 
-        left = self.mergeTrees(root1.left, root2.left)
-        root1.left = left
+        left = self.mergeTrees(root1.left, root2.left)  # left recursion
+        root1.left = left  # merging
 
-        right = self.mergeTrees(root1.right, root2.right)
-        root1.right = right
+        right = self.mergeTrees(root1.right, root2.right)  # right recursion
+        root1.right = right  # merging
 
-        root1.val += root2.val
+        root1.val += root2.val  # merging values
 
         return root1
 
