@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 83 / 300
+**Solved:** 84 / 300
 
 ## Structure
 
@@ -86,6 +86,7 @@ New problems start from [`_template.py`](_template.py).
 | 965 | [Univalued Binary Tree](07-trees/0965_univalued_binary_tree.py) | Easy | Tree (DFS, compare with children) | O(n) | O(h) |
 | 572 | [Subtree of Another Tree](07-trees/0572_subtree_of_another_tree.py) | Easy | Tree (DFS + isSameTree helper) | O(n·m) | O(h) |
 | 617 | [Merge Two Binary Trees](07-trees/0617_merge_two_binary_trees.py) | Easy | Tree (DFS on two trees, modify in place) | O(min(n,m)) | O(h) |
+| 404 | [Sum of Left Leaves](07-trees/0404_sum_of_left_leaves.py) | Easy | Tree (DFS, check child from parent) | O(n) | O(h) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](01-arrays-hashing/1365_how_many_numbers_are_smaller_than_the_current_number.py) | Easy | Brute force (nested loops) | O(n²) | O(n) |
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
