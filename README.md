@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 87 / 300
+**Solved:** 88 / 300
 
 ## Structure
 
@@ -90,6 +90,7 @@ New problems start from [`_template.py`](_template.py).
 | 1290 | [Convert Binary Number in a Linked List to Integer](06-linked-list/1290_convert_binary_number_in_a_linked_list_to_integer.py) | Easy | Linked List (traversal, result * 2 + bit) | O(n) | O(1) |
 | 700 | [Search in a Binary Search Tree](07-trees/0700_search_in_a_binary_search_tree.py) | Easy | BST (recursive search, one direction) | O(h) | O(h) |
 | 938 | [Range Sum of BST](07-trees/0938_range_sum_of_bst.py) | Easy | Tree (DFS sum, range check) | O(n) | O(h) |
+| 701 | [Insert into a Binary Search Tree](07-trees/0701_insert_into_a_binary_search_tree.py) | Medium | BST (search one way + attach result) | O(h) | O(h) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](01-arrays-hashing/1365_how_many_numbers_are_smaller_than_the_current_number.py) | Easy | Brute force (nested loops) | O(n²) | O(n) |
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
