@@ -11,7 +11,9 @@
 # base case moved to the bottom (root.val on None crashes); self.insertIntoBST(val) instead of
 # TreeNode(val) (calling vs creating — reverse of the #617 mistake); results in loose left/right
 # variables (new node lost); typo root.tright.
-# TODO: talk through this code at the start of the next session (user didn't fully get it).
+# Redo 2026-10-31: rewritten from scratch, correct on first try (two ifs instead of if/elif — fine,
+# they're mutually exclusive). Walked through the insert-5 trace: TreeNode(val) CREATES the node,
+# return HANDS it to the parent, parent ATTACHES it via root.left/right = ...
 
 from typing import Optional
 
