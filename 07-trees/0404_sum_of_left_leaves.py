@@ -11,6 +11,9 @@
 # leaf check on root instead of root.left; SumOfLeftLeaves (capital S) and passing 2 args;
 # root.right.left instead of root.left.right (AttributeError when root.right is None).
 # Heavily hinted (leaf-check line given) -> REDO from scratch in a few days, also a list version.
+# Redo 2026-11-01: rewritten from scratch, correct (incl. the leaf-check line). Still unsure WHY
+# return result + left + right -> explained: each call returns the sum for ITS subtree =
+# what it found itself (result) + what the left subtree found + what the right subtree found.
 
 from typing import Optional
 
