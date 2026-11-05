@@ -4,7 +4,7 @@ My LeetCode solutions in Python, grouped by pattern.
 
 **Goal (Dec 31, 2026):** 300 problems · NeetCode 150 completed · 1700+ contest rating
 
-**Solved:** 100 / 300
+**Solved:** 101 / 300
 
 ## Structure
 
@@ -103,6 +103,7 @@ New problems start from [`_template.py`](_template.py).
 | 3727 | [Maximum Alternating Sum of Squares](12-greedy/3727_maximum_alternating_sum_of_squares.py) | Medium | Greedy + sorting (big squares on + slots) | O(n log n) | O(n) |
 | 1389 | [Create Target Array in the Given Order](01-arrays-hashing/1389_create_target_array_in_the_given_order.py) | Easy | Array (list.insert at positions) | O(n²) | O(n) |
 | 111 | [Minimum Depth of Binary Tree](07-trees/0111_minimum_depth_of_binary_tree.py) | Easy | Tree DFS (depth as arg, collect at leaves) | O(n) | O(n) |
+| 2006 | [Count Number of Pairs With Absolute Difference K](01-arrays-hashing/2006_count_number_of_pairs_with_absolute_difference_k.py) | Easy | Nested loops over index pairs + abs() | O(n²) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](01-arrays-hashing/1295_find_numbers_with_even_number_of_digits.py) | Easy | Array (counter) | O(n·d) | O(d) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](01-arrays-hashing/1365_how_many_numbers_are_smaller_than_the_current_number.py) | Easy | Brute force (nested loops) | O(n²) | O(n) |
 | 232 | [Implement Queue using Stacks](04-stack/0232_implement_queue_using_stacks.py) | Easy | Stack (two stacks) | O(1) amortized | O(n) |
