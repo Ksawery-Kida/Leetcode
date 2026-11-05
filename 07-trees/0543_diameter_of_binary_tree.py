@@ -13,7 +13,6 @@
 # #110); compared left vs right instead of adding; left + right - 1; self.max (max is built-in);
 # helper returned nothing / max(left, right) without +1; extra unused `count` param;
 # two variables mixed (self.count never updated, self.maximum never initialized).
-# Heavily guided -> in the Redo queue.
 
 from typing import Optional
 

@@ -12,7 +12,7 @@
 # Mistakes hit: nums[x] with x already a value; stray colon after an expression; sort(rslt) /
 # rslt(sort) instead of rslt.sort(); (x + 1) // 2 with the loop var instead of len(nums);
 # len(nums) = length (assignment reversed); undefined `best`; subtracted sum(nums) (originals,
-# all of them) instead of the rest of the squares. Final line was given.
+# all of them) instead of the rest of the squares.
 
 from typing import List
 
