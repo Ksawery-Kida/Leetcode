@@ -11,6 +11,9 @@ class Solution:
 #   Hash Map — O(n): seen = {value: index} of numbers already passed; for each x ask "was
 #   target - x already seen?" -> yes = [seen[need], i]. Dict `in` is O(1), so no second loop.
 #   Redo 2026-10-21: re-solved it alone after first being scared by this code.
+#   Redo 2026-11-06: rewritten from scratch. seen = notebook of numbers already passed
+#   (key = number, value = index); `in` searches KEYS, so store seen[x] = i, not seen[i] = x.
+#   Check for the partner BEFORE storing x, so a number never pairs with itself.
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen = {}
