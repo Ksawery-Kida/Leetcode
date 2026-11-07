@@ -24,3 +24,4 @@ if __name__ == "__main__":
     print(Solution().singleNumber([1]))  # 1
 
 # Redo 2026-10-24: re-solved solo.
+# Redo 2026-11-07: re-solved from scratch. Mistakes hit: second loop checked `x not in seen` on seen's own keys (never true -> fell through).
