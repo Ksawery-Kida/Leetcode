@@ -19,3 +19,4 @@ if __name__ == "__main__":
     print(Solution().containsDuplicate([1, 2, 3, 1]))  # True
     print(Solution().containsDuplicate([1, 2, 3, 4]))  # False
     print(Solution().containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]))  # True
+# Redo 2026-11-09: re-solved from scratch, first try.
