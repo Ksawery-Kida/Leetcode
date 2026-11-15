@@ -22,3 +22,8 @@ class Solution:
 if __name__ == "__main__":
     print(Solution().findMaxConsecutiveOnes([1, 1, 0, 1, 1, 1]))  # 3
     print(Solution().findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1]))  # 2
+
+# Redo 2026-11-15: re-solved from scratch (count + best, best = max(best, count) right after
+# count += 1). Mistakes hit: stack idea (not needed, only the current element matters); mixed
+# the local parameter `count` with self.count; appended count to a list AFTER resetting it
+# (always 0); last run of ones never saved when the array ends with 1s (max() of empty list).
