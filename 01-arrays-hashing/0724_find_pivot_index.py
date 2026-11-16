@@ -23,3 +23,6 @@ if __name__ == "__main__":
     print(Solution().pivotIndex([1, 7, 3, 6, 5, 6]))  # 3
     print(Solution().pivotIndex([1, 2, 3]))  # -1
     print(Solution().pivotIndex([2, 1, -1]))  # 0
+
+# Redo 2026-11-16: re-solved from scratch, first try. total = sum(nums), keep a running left
+# sum, right = total - left - nums[x]; compare, then add nums[x] to left. O(n) time, O(1) space.
