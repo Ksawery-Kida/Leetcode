@@ -17,3 +17,7 @@ class Solution:
 if __name__ == "__main__":
     print(Solution().findNumbers([12, 345, 2, 6, 7896]))  # 2
     print(Solution().findNumbers([555, 901, 482, 1771]))  # 1
+
+# Redo 2026-11-17: re-solved from scratch: for x in nums, len(str(x)) % 2 == 0 -> count += 1.
+# Mistakes hit: started with a dict of counts (not needed: the task is digits per number, not
+# occurrences); used nums[x] although x was already the number; len() on an int (needs str()).
