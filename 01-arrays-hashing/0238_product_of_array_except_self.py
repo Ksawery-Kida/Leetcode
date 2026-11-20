@@ -25,3 +25,24 @@ class Solution:
 if __name__ == "__main__":
     print(Solution().productExceptSelf([1, 2, 3, 4]))  # [24, 12, 8, 6]
     print(Solution().productExceptSelf([-1, 1, 0, -3, 3]))  # [0, 0, 9, 0, 0]
+
+# Redo 2026-11-20: rebuilt step by step. Pass 1 (left -> right): append the running `left`
+# product, then left = left * x. Pass 2 (right -> left, range(len(nums) - 1, -1, -1)):
+# result[i] = result[i] * right, then right = right * nums[i].
+# Mistakes hit: tried `total` (that would need division, which is forbidden); left = nums[i] -
+# nums[i-1] (neighbours instead of a running product); `left = left *= nums[x]` (chained = and
+# *=, x is a value not an index); second pass appended instead of multiplying result[i];
+# range(nums, -1, -1, -1) (needs len(nums) - 1 and three arguments); right * i (index, not value).
+#
+# class Solution:
+#     def productExceptSelf(self, nums: list[int]) -> list[int]:
+#         left = 1
+#         result = []
+#         for x in nums:
+#             result.append(left)
+#             left = left * x
+#         right = 1
+#         for i in range(len(nums) - 1, -1, -1):
+#             result[i] = result[i] * right
+#             right = right * nums[i]
+#         return result
