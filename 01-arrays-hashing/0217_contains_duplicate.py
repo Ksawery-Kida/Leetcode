@@ -8,10 +8,10 @@
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         seen = set()
-        for x in nums:
-            if x in seen:
+        for num in nums:
+            if num in seen:
                 return True
-            seen.add(x)
+            seen.add(num)
         return False
 
 
@@ -20,3 +20,4 @@ if __name__ == "__main__":
     print(Solution().containsDuplicate([1, 2, 3, 4]))  # False
     print(Solution().containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]))  # True
 # Redo 2026-11-09: re-solved from scratch, first try.
+# Redo 2026-11-24: re-solved from scratch (renamed loop variable to num).
