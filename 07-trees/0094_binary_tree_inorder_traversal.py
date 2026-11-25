@@ -65,3 +65,4 @@ if __name__ == "__main__":
     print(Solution().inorderTraversal(build([1, None, 2, 3])))  # [1, 3, 2]
     print(Solution().inorderTraversal(build([4, 2, 6, 1, 3, 5, 7])))  # [1, 2, 3, 4, 5, 6, 7]
     print(Solution().inorderTraversal(build([])))  # []
+# Redo 2026-11-25: re-solved from scratch, first try (helper + self.result).
