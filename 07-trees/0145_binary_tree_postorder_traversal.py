@@ -61,3 +61,4 @@ if __name__ == "__main__":
     print(Solution().postorderTraversal(build([1, None, 2, 3])))  # [3, 2, 1]
     print(Solution().postorderTraversal(build([2, 3, 1])))  # [3, 1, 2]
     print(Solution().postorderTraversal(build([])))  # []
+# Redo 2026-11-25: re-solved from scratch, first try (helper + self.result).
